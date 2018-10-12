@@ -13,6 +13,7 @@ def input_to_index(input)
   
 def move(board, index, value = "X")
   position = input_to_index(index)
+  puts position
   board[position] = value
   end
   
