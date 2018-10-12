@@ -13,8 +13,8 @@ def input_to_index(input)
   end
   
 def move(board, index, value = "X")
-  position = input_to_index(index)
+
   
-  board[position] = value
+  board[index] = value
   end
   
